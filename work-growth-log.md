@@ -1,14 +1,15 @@
 # 工作成长与技术沉淀
 
-统计周期：2025-12-01 至 2026-06-01
+统计周期：2025-12-01 至 2026-06-08
 统计口径：扫描 `/Users/b/newgrand` 直接子目录 Git 仓库；只统计 `release` / `main` 分支上作者为 `diandian` 的提交；同一仓库同一 commit hash 去重。
-生成时间：2026-06-01
+口径补充：`inewgrand-spider` 为用户确认的更名项目与作者归属例外，当前项目所有提交均计入个人产出，包含 `shirley` 作者提交和 `dev/origin/dev` 上的补充事实。
+生成时间：2026-06-08
 
 ## 索引
 
-- 时间线：[2025-12](work-growth/timeline/2025-12.md)、[2026-01](work-growth/timeline/2026-01.md)、[2026-02](work-growth/timeline/2026-02.md)、[2026-03](work-growth/timeline/2026-03.md)、[2026-04](work-growth/timeline/2026-04.md)、[2026-05](work-growth/timeline/2026-05.md)
-- 项目线：[inewgrand-front](work-growth/projects/inewgrand-front.md)、[inewgrand-sys-react](work-growth/projects/inewgrand-sys-react.md)、[inewgrand-weixin](work-growth/projects/inewgrand-weixin.md)、[inewgrand-uia-web](work-growth/projects/inewgrand-uia-web.md)、[sentry-docker](work-growth/projects/sentry-docker.md)、[mcp-test](work-growth/projects/mcp-test.md)、[inewgrand-uia-portaldesign](work-growth/projects/inewgrand-uia-portaldesign.md)、[GlitchTip](work-growth/projects/glitchtip.md)
-- 博客草稿：[产业信息平台支付与订单链路建设复盘](work-growth/posts/2026-03-payment-order-flow.md)、[内网环境自托管 Sentry 落地复盘](work-growth/posts/2026-04-sentry-self-hosted.md)、[微信端活动与住宿场景体验优化复盘](work-growth/posts/2026-04-weixin-activity-flow.md)
+- 时间线：[2025-12](work-growth/timeline/2025-12.md)、[2026-01](work-growth/timeline/2026-01.md)、[2026-02](work-growth/timeline/2026-02.md)、[2026-03](work-growth/timeline/2026-03.md)、[2026-04](work-growth/timeline/2026-04.md)、[2026-05](work-growth/timeline/2026-05.md)、[2026-06](work-growth/timeline/2026-06.md)
+- 项目线：[inewgrand-front](work-growth/projects/inewgrand-front.md)、[inewgrand-sys-react](work-growth/projects/inewgrand-sys-react.md)、[inewgrand-weixin](work-growth/projects/inewgrand-weixin.md)、[inewgrand-uia-web](work-growth/projects/inewgrand-uia-web.md)、[sentry-docker](work-growth/projects/sentry-docker.md)、[mcp-test](work-growth/projects/mcp-test.md)、[inewgrand-spider](work-growth/projects/inewgrand-spider.md)、[inewgrand-uia-portaldesign](work-growth/projects/inewgrand-uia-portaldesign.md)、[GlitchTip](work-growth/projects/glitchtip.md)
+- 博客草稿：[产业信息平台支付与订单链路建设复盘](work-growth/posts/2026-03-payment-order-flow.md)、[内网环境自托管 Sentry 落地复盘](work-growth/posts/2026-04-sentry-self-hosted.md)、[微信端活动与住宿场景体验优化复盘](work-growth/posts/2026-04-weixin-activity-flow.md)、[inewgrand-spider 住建部资质采集后端与验证码自动化复盘](work-growth/posts/2026-06-inewgrand-spider-crawler.md)
 
 ## 跟踪项目状态
 
@@ -16,11 +17,12 @@
 
 | 项目 | 分支 | 近 30 天个人提交 | 本周新增 | 一句话定位 |
 | --- | --- | ---: | ---: | --- |
-| inewgrand-front | release / origin/release | 38 | 16 | 产业信息平台前台，重点承载应用市场、租户、订单、支付、N-Claw 充值、推广页和 Sentry 接入。 |
-| inewgrand-sys-react | release / origin/release | 11 | 1 | 管理后台，支撑商品、订单、活动、住宿、签到设备、接口库、N-Claw 管理和支付配置。 |
+| inewgrand-spider | main / dev / origin/dev / origin/main | 14 | 14 | 住建部企业资质运维后端，围绕公开平台数据采集、验证码处理、接口解密和后续预警能力搭建基础；用户确认 `shirley` 提交也归属个人产出。 |
+| inewgrand-front | release / origin/release | 38 | 0 | 产业信息平台前台，重点承载应用市场、租户、订单、支付、N-Claw 充值、推广页和 Sentry 接入。 |
+| inewgrand-sys-react | release / origin/release | 11 | 0 | 管理后台，支撑商品、订单、活动、住宿、签到设备、接口库、N-Claw 管理和支付配置。 |
 | inewgrand-weixin | release / origin/release / origin/main | 1 | 0 | 微信端活动、报名、住宿、支付、扫码签到和移动端错误监控。 |
-| inewgrand-uia-web | origin/release / origin/main | 0 | 0 | 云服务平台应用配置、订购跳转、产品类型和门户入口集成；近 30 天分支仍有变化，保留跟踪。 |
-| sentry-docker | main / origin/main | 3 | 1 | 自托管 Sentry 的内网部署、资源调优、ClickHouse 清理和离线能力建设。 |
+| inewgrand-uia-web | origin/release / origin/main | 2 | 2 | 云服务平台应用配置、订购跳转、产品类型、门户入口和登录页合规信息集成。 |
+| sentry-docker | main / origin/main | 3 | 0 | 自托管 Sentry 的内网部署、资源调优、ClickHouse 清理和离线能力建设。 |
 | mcp-test | main | 1 | 0 | MCP 测试项目，当前仅有初始化提交，后续视真实工具化沉淀扩展。 |
 
 ### 观察项目
@@ -70,25 +72,31 @@
 
 围绕 N-Claw、支付、首页体验和可观测性做收敛。前台完成 N-Claw 积分充值组件、协议弹窗、支付渠道品牌名、支付宝支付二维码、推广页、首页产品轮播大图和响应式导航优化；后台优化支付二维码、支付宝 PC 端跳转、租户认证逻辑，并补充接口库请求参数拆分与请求体树结构编辑；Sentry 自托管配置补齐内网服务名、外网超时规避和 ClickHouse 日志清理。整体体现了从功能交付到链路稳定、部署适配和体验打磨的收尾能力。
 
+### 2026-06
+
+本周新增重点从业务前台收尾转向工程化采集服务探索：`inewgrand-spider` 完成住建部企业资质运维后端骨架、验证码统一调度、Playwright 会话自动化、接口 token 刷新、AES-CBC 解密结果落盘、Qwen VLM 接入验证和端到端 smoke 脚本；`inewgrand-uia-web` 补齐登录页版权、备案号和产品名称展示。整体目标是为后续资质采集、规则比对和预警能力打底，同时把登录页合规展示信息补齐。
+
 ## 目标导向亮点
 
-1. **提升 N-Claw 推广与充值入口的转化承接能力**：`inewgrand-front` 在积分充值链路之外新增 N-Claw 推广页、复用下载按钮，并按视口宽度等比缩放，目标是让 iframe 推广入口在不同容器里保持完整可读。证据：`6c390b5`、`fadf3a2`、`28720db`、`d14a078`。
-2. **提升首页和导航在多端场景下的产品展示效率**：`inewgrand-front` 更新首页产品轮播大图、工作台入口图标、移动端菜单和响应式容器，目标是让首页能更清楚展示产品能力并减少小屏访问阻塞。证据：`825d06d`、`eb2f536`、`d9faf9d`、`503031e`、`ff96b45`。
-3. **提高后台接口配置效率**：`inewgrand-sys-react` 支持请求参数拆分及请求体树结构编辑，目标是让接口库维护复杂请求结构时减少手工整理成本。证据：`27f95e7`。
-4. **降低内网可观测性长期运行风险**：`sentry-docker` 优化 ClickHouse 日志存储及数据清理脚本，目标是控制事件数据和 sourcemap 清理成本，减少自托管 Sentry 长期运行的存储压力。证据：`763a82e`。
-5. **沉淀 AI Agent 协作规则**：`inewgrand-front` 添加项目级 `AGENTS.md`，目标是减少 AI 辅助开发时的上下文偏差和无关改动。证据：`ec2624a`。
+1. **为资质运维业务建立可扩展采集底座**：`inewgrand-spider` 初始化 NestJS + Fastify + TypeScript 后端，拆出 crawler、qualification、personnel、compliance、warning、notification 等模块边界，目标是支撑后续企业资质、注册人员、规则比对和预警能力。证据：`ebbb04a`、README、`AGENTS.md`。
+2. **降低住建部详情接口采集的人工介入成本**：`inewgrand-spider` 用 Playwright 维护浏览器会话，遇到 408 token 失效后触发验证码桥接、刷新 accessToken、重试接口并保存解密结果，目标是把“人工打开页面验证再复制 token”的流程沉淀为可执行后端能力。证据：`562d714`、`700998a`、`docs/mohurd-crawl-flow.md`。
+3. **提升复杂验证码处理的可演进性**：`inewgrand-spider` 建立验证码统一调度架构，覆盖滑块、旋转、单点、顺序点选、文字点选等类型，并把识别、求解和执行动作拆层，目标是让验证码能力可插拔、可测试、可替换。证据：`50af75f`、`7bc72c0`、`dd877a5`、`84277a2`、`docs/captcha-architecture.md`、`docs/mohurd-geetest-vlm.md`。
+4. **补齐登录页合规与品牌信息展示**：`inewgrand-uia-web` 在登录页添加版权信息和备案号，并修正版权产品名称为“新云汇”，目标是减少登录入口缺少主体信息或品牌不一致的问题。证据：`5192cfe`、`6775313`。
+5. **沉淀 AI Agent 协作规则**：`inewgrand-spider` 和 `inewgrand-front` 均有项目级 `AGENTS.md` 约束上下文阅读、最小改动、pnpm 使用、测试和变更摘要，目标是减少 AI 辅助开发时的上下文偏差和无关改动。证据：`inewgrand-spider` 的 `ebbb04a`、`inewgrand-front` 的 `ec2624a`。
 
 ## AI 提效观察
 
-- 可验证证据：项目级 `AGENTS.md` 已进入 `inewgrand-front` 的 release 分支，用于约束 AI Agent 阅读上下文、最小改动、变更摘要和测试建议。后续可观察它是否减少返工或无关文件改动。
+- 可验证证据：项目级 `AGENTS.md` 已进入 `inewgrand-spider` 的 main 分支和 `inewgrand-front` 的 release 分支，用于约束 AI Agent 阅读上下文、最小改动、pnpm 使用、测试要求、变更摘要和推送边界。后续可观察它是否减少返工或无关文件改动。
+- `inewgrand-spider` 的 `docs/captcha-architecture.md`、`docs/mohurd-crawl-flow.md`、`docs/mohurd-geetest-vlm.md` 体现了“边实现边沉淀架构、流程和排障经验”的做法；AI 在文档整理、方案拆分、测试清单和复盘表达上的提效有直接材料可追踪，但具体节省时长仍需人工补充。
 - 本知识库维护过程本身可由 AI Agent 按固定口径扫描 release/main、去重 commit hash、提炼目标导向总结，能降低周/月复盘整理成本。证据是本仓库的时间线、项目线和博客草稿持续更新。
-- 对本周代码实现阶段的 AI 提效，例如推广页缩放方案、响应式布局调整、接口树结构编辑或 ClickHouse 清理脚本排障，目前只能从提交主题和文件变化间接推断，仍标记为“待补充证据”，不夸大为确定收益。
+- 对验证码求解、Playwright 会话刷新和接口解密等代码实现阶段的 AI 提效，目前只能从 `AGENTS.md`、文档和提交结构间接证明 AI 参与了规范沉淀与复盘整理；不能直接证明具体代码由 AI 生成，仍标记为“待补充证据”。
 
 ## 建议补充数据
 
 - N-Claw 充值访问量、订单创建量、支付成功率、协议弹窗确认率。
 - N-Claw 推广页访问量、下载按钮点击率、不同视口下的访问设备分布。
 - 首页产品轮播点击率、移动端导航使用情况、接口库请求体编辑使用次数。
+- 住建部采集成功率、验证码一次通过率、平均重试次数、接口 408 触发频率、单次采集耗时、解密结果准确率。
 - 支付二维码加载失败率、支付宝跳转失败率、生产资源路径问题数量。
 - Sentry 接入前后的错误发现数量、线上问题定位时长、重复问题处理次数、ClickHouse 数据增长和清理效果。
-- AGENTS 规则落地后 AI 协作返工次数、无关改动次数和复盘整理耗时变化。
+- AGENTS 规则落地后 AI 协作返工次数、无关改动次数、测试补充率和复盘整理耗时变化。
